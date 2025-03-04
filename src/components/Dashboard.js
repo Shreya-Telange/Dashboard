@@ -5,7 +5,7 @@ import { HiDotsVertical } from "react-icons/hi";
 import { IoIosArrowDown } from "react-icons/io";
 import Image from "next/image";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
-import styles from "@/styles/Dashboard.module.css";
+import styles from "../styles/Dashboard.module.css";
 
 const data = [
   { month: "Jan", marketingSales: 10, onlineSales: 5 },
