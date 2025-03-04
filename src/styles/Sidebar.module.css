@@ -1,0 +1,82 @@
+.sidebar {
+  width: 250px;
+  height: 202vh;
+  background: #f8faff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e5e7eb;
+}
+
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo {
+  width: 35px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuHeading {
+  font-size: 12px;
+  font-weight: bold;
+  color: #7c8db5;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px; /* Increased padding for more space */
+  margin-bottom: 8px; /* Added margin between items */
+  border-radius: 8px;
+  color: #525f7f;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menuItem:hover {
+  background: rgba(79, 70, 229, 0.1);
+}
+
+.active {
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+}
+
+.active:hover {
+  background: #4338ca;
+}
+
+.badge {
+  margin-left: auto;
+  background: #d1d5db;
+  color: #525f7f;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.profileAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  margin-top: auto;
+  align-self: center;
+}
