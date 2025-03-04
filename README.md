@@ -39,3 +39,8 @@ Recharts Data visualization    (charts & graphs)
 Framer Motion                  Smooth animations and transitions 
 CSS Modules                    Modern styling approach 
 React Icons                    Icon library for UI elements 
+
+
+Screenshot:-
+
+![image](https://github.com/user-attachments/assets/3ca91b35-5397-4a2e-a258-7c37d7ccddf6)
